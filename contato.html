@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - TdB Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fale Conosco</h1>
+        <p>Entre em contato com a equipe do TdB Hub</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="solucao-dashboard.html">Dashboard</a>
+        <a href="integrantes.html">Equipe</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+        <h2>Envie sua mensagem</h2>
+        <p>Preencha os dados abaixo e entraremos em contato.</p>
+        
+        <div class="caixa">
+            <!-- A tag <form> indica que aqui começa um formulário -->
+            <form action="#">
+                
+                <!-- Nome -->
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <!-- O placeholder coloca um texto de dica dentro do campo -->
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" size="40">
+                </p>
+
+                <!-- E-mail -->
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" size="40">
+                </p>
+
+                <!-- Mensagem (Caixa de texto maior) -->
+                <p>
+                    <label for="mensagem">Sua Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="42" placeholder="Escreva sua dúvida aqui..."></textarea>
+                </p>
+
+                <!-- Botão de Enviar -->
+                <p>
+                    <button type="submit" class="botao">Enviar Mensagem</button>
+                </p>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Projeto Acadêmico - Challenge 2026</p>
+    </footer>
+
+</body>
+</html>
