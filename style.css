@@ -1,0 +1,154 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F7F6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.barra-topo {
+    background-color: #C4D600;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.botao-branco {
+    background-color: #FFFFFF;
+    color: #F26522;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.botao-branco:hover {
+    background-color: #2B2A29;
+    color: #C4D600;
+}
+
+header {
+    background-color: #2B2A29;
+    padding: 40px 0 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #C4D600;
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+nav {
+    background-color: #2B2A29;
+    text-align: center;
+    padding: 15px 0 35px 0;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #C4D600;
+    color: #2B2A29;
+}
+
+main {
+    width: 1000px;
+    margin: -25px auto 40px auto;
+    padding: 0;
+}
+
+.destaque {
+    background-color: #2B2A29;
+    color: #FFFFFF;
+    padding: 80px 40px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border-bottom: 6px solid #F26522;
+}
+
+.destaque h2 {
+    font-size: 48px;
+    margin: 0 0 15px 0;
+    color: #C4D600;
+}
+
+.destaque p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #DDDDDD;
+}
+
+.botao-laranja {
+    background-color: #F26522;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(242, 101, 34, 0.3);
+}
+
+.botao-laranja:hover {
+    background-color: #D85515;
+    box-shadow: 0 6px 12px rgba(242, 101, 34, 0.5);
+}
+
+.caixa {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-left: 8px solid #C4D600;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.caixa h3 {
+    margin-top: 0;
+    color: #2B2A29;
+    font-size: 24px;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.caixa p {
+    color: #555555;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2B2A29;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+    border-top: 6px solid #C4D600;
+}
