@@ -1,7 +1,5 @@
 TdB Hub
 Um hub centralizado e sistema de gestão projetado para otimizar fluxos de trabalho, consolidar o acesso a dados e aprimorar a colaboração da equipe nas operações.
-Visão Geral do Projeto & Capturas de Tela
-O TdB Hub serve como um espaço de trabalho digital unificado para o desafio Turma do Bem na FIAP. Abaixo estão as prévias visuais da interface da aplicação e da arquitetura do sistema.
 
 # **Visão Geral do Projeto & Capturas de Tela**
 O TdB Hub serve como um espaço de trabalho digital unificado para o desafio Turma do Bem na FIAP. Abaixo estão as prévias visuais da interface da aplicação e da arquitetura do sistema.
