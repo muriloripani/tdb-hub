@@ -3,8 +3,16 @@ Um hub centralizado e sistema de gestão projetado para otimizar fluxos de traba
 Visão Geral do Projeto & Capturas de Tela
 O TdB Hub serve como um espaço de trabalho digital unificado para o desafio Turma do Bem na FIAP. Abaixo estão as prévias visuais da interface da aplicação e da arquitetura do sistema.
 
-Captura de Tela 2026-10-09 às 22.00.25.png Captura de Tela 2026-10-09 às 22.00.35.png Captura de Tela 2026-10-09 às 22.00.08.png
+# **Visão Geral do Projeto & Capturas de Tela**
+O TdB Hub serve como um espaço de trabalho digital unificado para o desafio Turma do Bem na FIAP. Abaixo estão as prévias visuais da interface da aplicação e da arquitetura do sistema.
 
+<img src="imagens/fotosite1.png" width="800">
+<br><br>
+<img src="imagens/fotosite2.png" width="800">
+<br><br>
+<img src="imagens/fotosite3.png" width="800">
+
+*Legenda: Visão geral da interface do painel principal e navegação da plataforma.*
 Legenda: Visão geral da interface do painel principal e navegação da plataforma.
 Tecnologias Utilizadas
 O projeto utiliza tecnologias web fundamentais focadas em simplicidade, desempenho e acessibilidade:
@@ -30,6 +38,8 @@ tdb-hub/
 | <img src="imagens/foto-augusto.jpg" width="50"> | **João Augusto Moreira** | 575087 | 1TDSPS-2026 | [LinkedIn](https://www.linkedin.com/in/joão-augusto-12125b331/) • [GitHub](https://github.com/jaugustom0106-art) |
 | <img src="imagens/foto-bernardo.jpg" width="50"> | **Bernardo Borges Franco** | 576078 | 1TDSPS-2026 | [LinkedIn](https://www.linkedin.com/in/bernardo-borges-2715212a1/) • [GitHub](https://github.com/borgexss328) |
 | <img src="imagens/foto-matheus.jpg" width="50"> | **Matheus Batista da Silva** | 574575 | 1TDSPS-2026 | [LinkedIn](https://www.linkedin.com/in/matheus-batista-da-silva-8b4ab2312/) • [GitHub](https://github.com/MatheusBatista1910) |
+
+
 Repositório
 Acesse o código-fonte oficial do projeto e o histórico de versões:
 
