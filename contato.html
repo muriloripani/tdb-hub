@@ -11,15 +11,19 @@
         <h1>Fale Conosco</h1>
         <p>Entre em contato com a equipe do TdB Hub</p>
     </header>
+         <!-- Botão do menu hamburguer (fica visível no celular) -->
+        <button class="hamburger-btn" aria-label="Abrir Menu">☰</button>
 
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="solucao-dashboard.html">Dashboard</a>
-        <a href="integrantes.html">Equipe</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contato.html">Contato</a>
-    </nav>
+        <!-- Menu de Navegação (com a classe nav-menu que o JS usa) -->
+        <nav class="nav-menu">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="solucao-dashboard.html">Dashboard</a>
+            <a href="solucao-ia.html">Gestão IA</a>
+            <a href="integrantes.html">Equipe</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contato.html">Contato</a>
+        </nav>
 
     <main>
         <h2>Envie sua mensagem</h2>
@@ -27,7 +31,7 @@
         
         <div class="caixa">
             <!-- A tag <form> indica que aqui começa um formulário -->
-            <form action="#">
+            <form id="form-contato" action="#">
                 
                 <!-- Nome -->
                 <p>
@@ -52,6 +56,7 @@
                 <p>
                     <button type="submit" class="botao">Enviar Mensagem</button>
                 </p>
+                <div id="feedback-sucesso"></div>
 
             </form>
         </div>
@@ -60,6 +65,7 @@
     <footer>
         <p>Projeto Acadêmico - Challenge 2026</p>
     </footer>
+    <script src="js/script.js"></script>
 
 </body>
 </html>

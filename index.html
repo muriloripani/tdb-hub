@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <!-- Tag essencial para o site funcionar em celular (Mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TdB Hub - Início</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -11,18 +13,21 @@
     <header>
         <h1>TdB Hub</h1>
         <p>Central de Informações - Turma do Bem</p>
-    </header>
 
-    <!-- Menu de Navegação -->
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="solucao-dashboard.html">Dashboard</a>
-        <a href="solucao-ia.html">Gestão IA</a>
-        <a href="integrantes.html">Equipe</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contato.html">Contato</a>
-    </nav>
+        <!-- Botão do menu hamburguer (fica visível no celular) -->
+        <button class="hamburger-btn" aria-label="Abrir Menu">☰</button>
+
+        <!-- Menu de Navegação (com a classe nav-menu que o JS usa) -->
+        <nav class="nav-menu">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="solucao-dashboard.html">Dashboard</a>
+            <a href="solucao-ia.html">Gestão IA</a>
+            <a href="integrantes.html">Equipe</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
 
     <!-- Conteúdo Principal -->
     <main>
@@ -35,12 +40,30 @@
             <br>
             <a href="sobre.html" class="botao">Saiba mais sobre o projeto</a>
         </div>
+
+        <section class="banner">
+            <h2>Projeto Turma do Bem</h2>
+            <!-- Botão que abre o modal no JS -->
+            <button class="botao btn-abrir-modal">Ver Detalhes da Solução</button>
+        </section>
+
+        <!-- Estrutura do Modal -->
+        <div id="modal-solucao" class="modal">
+            <div class="modal-conteudo">
+                <button class="btn-fechar-modal">&times;</button>
+                <h2>Sistema de Inteligência Artificial</h2>
+                <p>Esta solução automatiza a triagem dos pacientes e conecta os voluntários da Turma do Bem de forma rápida e segura.</p>
+            </div>
+        </div>
     </main>
 
     <!-- Rodapé -->
     <footer>
         <p>Projeto Acadêmico - Challenge 2026</p>
     </footer>
+
+    <!-- Chamada do JavaScript no final do arquivo -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>

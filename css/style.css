@@ -152,3 +152,148 @@ footer {
     margin-top: 60px;
     border-top: 6px solid #C4D600;
 }
+
+/* Bordas vermelhas quando o JS detectar erro no formulario */
+.input-error {
+    border: 2px solid #e74c3c !important;
+    background-color: #ffe6e6;
+}
+
+/* Mensagem de sucesso do formulario */
+#feedback-sucesso {
+    display: none;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 4px;
+}
+
+/* Estrutura simples do modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal.open {
+    display: flex;
+}
+
+/* Menu mobile quando ativado pelo JS */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu.active {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ===================================================
+   SPRINT 2 - ESTILOS ADICIONAIS (JS E RESPONSIVIDADE)
+   =================================================== */
+
+/* 1. ESTILOS DE ERRO E SUCESSO NO FORMULÁRIO */
+.input-error {
+    border: 2px solid #e74c3c !important;
+    background-color: #ffe6e6 !important;
+}
+
+#feedback-sucesso {
+    display: none;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 2. MENU HAMBÚRGUER (MOBILE) */
+.hamburger-btn {
+    display: none; /* Escondido em telas grandes (Desktop) */
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Responsividade do Menu até 768px */
+@media (max-width: 768px) {
+    .hamburger-btn {
+        display: block; /* Aparece no Mobile/Tablet */
+    }
+
+    .nav-menu {
+        display: none; /* Esconde os links por padrão */
+        flex-direction: column;
+        width: 100%;
+        background-color: #f8f9fa;
+        padding: 10px 0;
+    }
+
+    .nav-menu.active {
+        display: flex; /* Exibe o menu quando o JS adiciona a classe 'active' */
+    }
+}
+
+/* 3. MODAL INTERATIVO DA SOLUÇÃO */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal.open {
+    display: flex; /* Mostra o modal quando o JS adiciona a classe 'open' */
+}
+
+.modal-conteudo {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+}
+
+.btn-fechar-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    /* Mantenha o código do .nav-menu que já estava aqui e adicione: */
+
+    .nav-menu a {
+        color: #333; /* Muda a letra para cinza escuro no menu aberto */
+        padding: 12px; /* Dá um espaçamento melhor para clicar */
+        border-bottom: 1px solid #eee; /* Cria uma linha divisória opcional */
+    }
+
+    .hamburger-btn {
+        color: #cddc39; /* Deixa o ícone do menu visível no fundo escuro do cabeçalho */
+    }
+}
