@@ -1,7 +1,7 @@
-TdB Hub
+# TdB Hub
 Um hub centralizado e sistema de gestão projetado para otimizar fluxos de trabalho, consolidar o acesso a dados e aprimorar a colaboração da equipe nas operações.
 
-# **Visão Geral do Projeto & Capturas de Tela**
+## **Visão Geral do Projeto & Capturas de Tela**
 O TdB Hub serve como um espaço de trabalho digital unificado para o desafio Turma do Bem na FIAP. Abaixo estão as prévias visuais da interface da aplicação e da arquitetura do sistema.
 
 <img src="imagens/fotosite1.jpg" width="800">
@@ -15,9 +15,9 @@ O TdB Hub serve como um espaço de trabalho digital unificado para o desafio Tur
 ## **Tecnologias Utilizadas**
 O projeto utiliza tecnologias web fundamentais focadas em simplicidade, desempenho e acessibilidade:
 
-* **HTML5:** Estruturação semântica das páginas web
-* **CSS3:** Estilização moderna e layout responsivo
-* **JavaScript:** Interatividade dinâmica, validação de formulários e controle do menu mobile
+- **HTML5:** Estruturação semântica das páginas web
+- **CSS3:** Estilização moderna e layout responsivo
+- **JavaScript:** Interatividade dinâmica, validação de formulários e controle do menu mobile
 
 ## **Estrutura de Pastas**
 ```text
@@ -35,6 +35,7 @@ tdb-hub/
 ├── faq.html                 # Página de perguntas frequentes 
 ├── contato.html             # Página de contato 
 └── README.md                # Documentação do projeto
+```
 # **Autores & Créditos**
 | Foto | Nome | RM | Turma | Links |
 | :--- | :--- | :--- | :--- | :--- |
